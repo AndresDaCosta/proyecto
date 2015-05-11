@@ -11,7 +11,11 @@ public class Persona implements Serializable {
 	private int edad;
 	private String nombre;
 	
-	
+	//sobreescribo el métdo - overwrite de la clase Object
+	public String toString() {
+		// TODO Auto-generated method stub
+		return (this.edad + " "+ this.nombre + " hola"); 
+	}
 	
 	public Persona(int edad, String nombre) {
 		super();
@@ -19,7 +23,7 @@ public class Persona implements Serializable {
 		this.nombre = nombre;
 	}
 	public int getEdad() {
-		return edad;
+		return this.edad;
 	}
 	public void setEdad(int edad) {
 		this.edad = edad;
