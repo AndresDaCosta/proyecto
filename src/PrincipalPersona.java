@@ -47,8 +47,8 @@ public class PrincipalPersona {
 			Persona persona_aux = null;
 			for (int i = 0; i < array_devuelto.length; i++) {
 				persona_aux = array_devuelto [i];
-//				System.out.println(persona_aux.getEdad());
-//				System.out.println(persona_aux.getNombre());
+				System.out.println(persona_aux.getEdad());
+				System.out.println(persona_aux.getNombre());
 				System.out.println(persona_aux.toString());
 			}
 		
